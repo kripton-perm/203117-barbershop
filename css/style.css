@@ -1,0 +1,23 @@
+body {
+  font-family: "Arial" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.index-content-title {
+  font-family: "Arial" sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #000000;
+}
+
+.item-consist-title {
+  font-family: "Arial" sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
