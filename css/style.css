@@ -1,3 +1,4 @@
+/*
 body {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 14px;
@@ -15,3 +16,124 @@ body {
   font-size: 24px;
   line-height: 30px;
 }
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  /*Только для оформления сетки*/
+  background-color: aqua;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  /*Только для оформления сетки*/
+  background-color: black;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+  /*Только для оформления сетки*/
+  background-color: red;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  /*Только для оформления сетки*/
+  background-color: yellow;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  /*Только для оформления сетки*/
+  background-color: palevioletred;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  /*Только для оформления сетки*/
+  background-color: aqua;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  /*Только для оформления сетки*/
+  background-color: greenyellow;
+}
+
